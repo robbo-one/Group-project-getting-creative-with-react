@@ -8,8 +8,8 @@ const Nav = () => {
                 Home
                 </Link>
             </li>
-            <li><Link to={'/s'}>
-                S
+            <li><Link to={'/p'}>
+                P
                 </Link>
             </li>
             <li>
