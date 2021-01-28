@@ -92,3 +92,7 @@ ul {
       border-radius:100%;
       align-self: flex-start;
   }
+  
+#frank {
+    display:none;
+}

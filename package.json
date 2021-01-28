@@ -30,6 +30,8 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "react-player": "^2.8.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0"
   },

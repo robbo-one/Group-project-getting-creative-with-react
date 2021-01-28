@@ -12,7 +12,12 @@ module.exports = {
       test: /\.jsx?$/,
       loader: 'babel-loader',
       exclude: /node_modules/
-    }]
+    },
+    {
+      test: /\.mp3$/i,
+      use: 'file-loader'
+    },
+]
   },
   resolve: {
     extensions: ['.js', '.jsx']

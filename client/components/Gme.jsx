@@ -8,7 +8,7 @@ const Gme = () => {
       <p>$420.69 USD at close 28 Jan at 16:20 </p>
       <p>Amount to invest</p>
       <form>
-      <span className="currencyinput">$<input placeHolder="420.69" className="currencyInput" min="420" type="number" name="currency"/>USD</span>
+      <span className="currencyinput">$<input placeHolder="420.69" className="currencyInput" min="420" type="number"/>USD</span>
       <p>Estimated Wallet: Your First Born's University Savings</p>
       <button className="yolo-button"><Link to={'/moon'}>Yolo</Link></button>
       </form>
