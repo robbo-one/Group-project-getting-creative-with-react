@@ -31,3 +31,64 @@ ul {
     justify-content: space-around;
 
 }
+
+.Gme{
+    height: 80vh;
+    background-color: lightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.currencyInput {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: blue;
+    width:300px;
+    height:20px;
+  }
+
+  .currencyInput:focus {
+    border-color: green
+  }
+
+  .pageHeader {
+      text-decoration: underline;
+  }
+
+  .yolo-button{
+      background-color:pink;
+      border-radius: 20px;
+      width:80px;
+      font-size: x-large;
+      height:50px;
+  }
+
+  .Moon{
+      color:white;
+      display:block;
+      top:0;
+      left:0;
+      width:100vw;
+      height:100vh;
+      position:fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(https://scitechdaily.com/images/Lunar-Reconnaissance-Orbiter-Moon-scaled.jpg);
+  }
+
+  .moonContainer {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-size: x-large;
+  }
+
+  #rocket{
+      width:200px;
+      border-radius:100%;
+      align-self: flex-start;
+  }
