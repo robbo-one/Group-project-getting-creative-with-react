@@ -22,7 +22,6 @@ const Moon = (props) => {
       <div id = "frank">
       <ReactPlayer height="100px;" width="100px" playing="true"
         url="https://soundcloud.com/rodesnanda/frank-sinatra-fly-me-to-the"
-        
       />
       </div>
       </div>
