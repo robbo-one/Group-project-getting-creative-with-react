@@ -1,0 +1,26 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#componentSelect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#componentSelect>span {
+    width: 400px;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
