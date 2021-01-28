@@ -6,7 +6,7 @@ const Home = () => {
         <div >
             <h1>Home</h1>
             <div id="componentSelect">
-            <span><Link to={'/r'}>
+            <span><Link to={'/s'}>
                 ?
             </Link></span>
             <span>  <Link to={'/l'}>
