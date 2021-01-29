@@ -16,7 +16,6 @@ const Rob = () => {
   function eject() {
     fart.load()
     fart.play()
-    // window.location.href="http://google.com"
   }
 
   return (
@@ -26,10 +25,10 @@ const Rob = () => {
         url="https://soundcloud.com/alexander-austere/jimi-hendrix-purple-haze"
       />
       </div>
-    <Nav />
+    {/* <Nav /> */}
 
     <h2> <a class="robTitle"
-    href="http://google.com">A L T 3000 ^</a>
+    href="/">A L T 3000 ^</a>
     </h2>
     <img className="chopper" src="https://wallpapertag.com/wallpaper/full/f/2/3/729594-cockpit-wallpapers-2560x1600-for-ipad.jpg"/>
 
