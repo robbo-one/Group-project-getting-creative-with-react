@@ -1,25 +1,40 @@
 import React from 'react'
-
+import Nav from './Nav'
+import ReactPlayer from "react-player"
 
 const Rob = () => {
  
+  const chopper = new Audio("https://bigsoundbank.com/UPLOAD/mp3/0263.mp3")
+  const fart = new Audio("https://bigsoundbank.com/UPLOAD/mp3/0241.mp3")
+  
+
   function onClick() {
-  window.location.href="http://google.com"
+    chopper.load()
+    chopper.play()
   }
 
   function eject() {
-    window.location.href="http://google.com"
+    fart.load()
+    fart.play()
+    // window.location.href="http://google.com"
   }
 
   return (
-  <div className="rob">
+    <div className="rob">
+      <div id="jimi">
+       <ReactPlayer height="100px;" width="100px" playing="true"
+        url="https://soundcloud.com/alexander-austere/jimi-hendrix-purple-haze"
+      />
+      </div>
+    <Nav />
 
     <h2> <a class="robTitle"
     href="http://google.com">A L T 3000 ^</a>
     </h2>
+    <img className="chopper" src="https://wallpapertag.com/wallpaper/full/f/2/3/729594-cockpit-wallpapers-2560x1600-for-ipad.jpg"/>
 
     <button class="start"  onClick={onClick}>Engine Start</button>
-    <div><button class="eject"  onClick={eject}>EJECT</button></div>
+    <button class="eject"  onClick={eject}>EJECT</button>
     
     {/* <button> <a href='http://google.com'   type="button">Engine start</a>
     </button> */}

@@ -3,17 +3,6 @@ import ReactPlayer from "react-player"
 
 const Moon = (props) => {
 
-	let frankfuck = new Audio("")
-
-    function playTune() {
-        frankfuck.load()
-        frankfuck.play()
-    }
-
-    useEffect(() => {
-      playTune()
-      }, []);
-
   return (
   <div className="Moon">
       <div className="moonContainer">

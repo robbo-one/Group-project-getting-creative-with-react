@@ -8,20 +8,6 @@ const Nav = () => {
                 Home
                 </Link>
             </li>
-            <li><Link to={'/p'}>
-                P
-                </Link>
-            </li>
-            <li>
-            <Link to={'/l'}>
-                L
-                </Link>
-            </li>
-            <li>
-            <Link to={'/r'}>
-                R
-                </Link>
-            </li>
         </ul>
     </nav>
   )
