@@ -44,6 +44,11 @@ h4{
     text-decoration: none;
 }
 
+#catpoo{
+    display: flex;
+    justify-content: center;
+}
+
 ul {
     list-style-type: none;
     padding: 0px;
@@ -51,12 +56,19 @@ ul {
 }
 
 .Prank {
+    background-image: url("https://i.gifer.com/Rc95.gif");
     padding-top:100px;
     display:flex;
     justify-content: space-around;
+    height: 100vh;
+    font-size: 50px;
+    color:white;
+padding-top: 100px;}
 
+a{
+    color: white;
+    text-decoration: none;
 }
-
 .chopper {
 width: 1280px;
 height: 800px;
@@ -80,6 +92,8 @@ left: 0%;
    #jimi{
        display:none;
    }
+
+
 
 .start {
     display: inline;
